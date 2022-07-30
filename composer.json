@@ -1,0 +1,16 @@
+{
+    "name": "michel/projeto",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Michel\\Projeto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michel Fabrizio Matheus",
+            "email": "dev_michel324@protonmail.com"
+        }
+    ],
+    "require": {}
+}

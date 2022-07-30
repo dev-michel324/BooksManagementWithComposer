@@ -1,0 +1,207 @@
+html, *{
+    margin: 0;
+    padding: 0;
+}
+
+.algn-center-horizontal{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.algn-center-vertical{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.algn-justify-xy{
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+.container{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.title-h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-input-characteristics{
+    border: none;
+    border-radius: 0.5em;
+    border: 1px solid grey;
+    height: 2em;
+    box-shadow: 0.1em 0.1em 0.1em grey;
+}
+
+#login-register{
+    position: absolute;
+    width: 13em;
+}
+
+#login-register > input, button{
+    display: block;
+    margin-top: 1em;
+}
+
+#login-register > input{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 15em;
+}
+
+#login-register > button{
+    position: relative;
+    width: 10em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#login-register > button:hover{
+    background-color: grey;
+    transition: 0.4s;
+    width: 13em;
+    cursor: pointer;
+}
+
+#login-register > a {
+    
+    text-decoration: none;
+    color: grey;
+}
+
+#login-register > a > p{
+    margin-top: 1em;
+    text-align: center;
+}
+
+#login-register > a:hover{
+    color: black;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.btns-logreg-home{
+    position: relative;
+    width: 16em;
+}
+
+.btns-logreg-home > a{
+    text-decoration: none;
+}
+
+.btns-logreg-home > a > button{
+    width: 8em;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.btns-logreg-home > a > button:hover{
+    cursor: pointer;
+    background-color: grey;
+    transition: 0.3s;
+}
+
+.btn-back{
+    position: absolute;
+}
+
+.list-books{
+    position: relative;
+    background-color: rgb(206, 206, 206);
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0.2em grey;
+    margin: 1em 1em;
+}
+
+.list-books > table{
+    position: relative;
+}
+
+.list-books > table > thead{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.list-books > table > tbody > tr{
+    border-bottom: solid 1px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-logout{
+    position: fixed;
+    background-color: rgb(235, 46, 46);
+    width: 5em;
+    margin-left: 1em;
+    margin-top: 1em !important;
+}
+
+.btn-logout:hover{
+    margin-left: 2em;
+    cursor: pointer;
+    background-color: rgb(206, 6, 6);
+    transition: 0.4s;
+}
+
+.register-form > form{
+    position: relative;
+    width: 12em;
+}
+
+.register-form > form > input{
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.register-form > form > button{
+    width: 12em;
+    position: relative;
+}
+
+.register-form > form > button:hover{
+    background-color: grey;
+    transition: 0.4s;
+    width: 13em;
+    cursor: pointer;
+}
+
+.actions-books{
+    position: fixed;
+    text-decoration: none;
+    right: 1em;
+}
+
+.actions-books:hover{
+    margin-right: 2em;
+    transition: 0.3s;
+    
+}
+
+#add-book{
+    bottom: 1em;
+}
+
+#get-lending{
+    bottom: 3em;
+}
+
+/* #add-book{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    text-decoration: none;
+}
+
+#add-book > button:hover{
+    background-color: grey;
+    margin-right: 2em;
+    transition: 0.3s;
+    cursor: pointer;
+} */
+
